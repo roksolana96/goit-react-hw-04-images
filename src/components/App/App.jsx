@@ -67,9 +67,6 @@ export const App = () =>{
         };
   
   const handleSearch = query => {
-      // if (query) 
-      //   return;
-      // if (query === this.state.query) return;
       setQuery(query);
       setImages([]);
       setPage(1);
@@ -83,7 +80,7 @@ export const App = () =>{
   
   const onLoadMore = () => {
     setPage(page => page + 1)
-        // setIsLoading(true);
+        setIsLoading(true);
       };
   
       const loadImages = images.length !== 0;
@@ -117,6 +114,10 @@ export const App = () =>{
   
 
 
+
+
+
+  
 // export class App extends Component {
 //   state = {
 //     images: [],

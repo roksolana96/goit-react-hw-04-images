@@ -2,7 +2,6 @@
 import React, { useEffect} from 'react';
 import { createPortal } from 'react-dom';
 import PropTypes from 'prop-types';
-// import { GrClose } from 'react-icons/gr';
 import { Overlay, ModalStyled } from './Modal.styled';
 
 const modalRoot = document.querySelector('#modal-root');
@@ -49,6 +48,9 @@ Modal.propTypes = {
     children: PropTypes.node.isRequired,
   };
 
+
+
+  
 
 // export class Modal extends Component {
 //   static propTypes = {

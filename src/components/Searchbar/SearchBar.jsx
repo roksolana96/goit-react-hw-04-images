@@ -53,6 +53,11 @@ const handleSubmit = e => {
   };
 
 
+
+
+
+  
+
 // export class SearchBar extends Component {
 //   static propTypes = {
 //     onSubmit: PropTypes.func,
